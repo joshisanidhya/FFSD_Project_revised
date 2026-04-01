@@ -1,5 +1,5 @@
 /**
- * NexusHub — Report Content Logic
+ * Gameunity — Report Content Logic
  * Handles multi-step reporting, content previewing, and submission states.
  */
 

@@ -1,5 +1,5 @@
 /**
- * NexusHub — Community Page Interactive Logic
+ * Gameunity — Community Page Interactive Logic
  * Handles tab switching, sidebar toggle, join button, chat interface, member search, etc.
  */
 

@@ -1,5 +1,5 @@
 /**
- * NexusHub — Profile & Settings Logic
+ * Gameunity — Profile & Settings Logic
  * Handles view switching, theme selection, and real-time profile synchronization.
  */
 

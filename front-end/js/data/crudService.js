@@ -1,5 +1,5 @@
 /**
- * NexusHub — Generic CRUD Service
+ * Gameunity — Generic CRUD Service
  * Provides Create, Read, Update, Delete operations on the centralized mock data store.
  * All mutations persist to localStorage and trigger optional callbacks.
  */
@@ -180,4 +180,4 @@ window.NexusCRUD = {
     logAction
 };
 
-console.log('%c[NexusHub] %cCRUD service ready.', 'color: #5B6EF5; font-weight: bold;', 'color: #10B981;');
+console.log('%c[Gameunity] %cCRUD service ready.', 'color: #5B6EF5; font-weight: bold;', 'color: #10B981;');

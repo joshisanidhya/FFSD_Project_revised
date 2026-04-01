@@ -1,5 +1,5 @@
 /**
- * NexusHub — Home Dashboard Logic
+ * Gameunity — Home Dashboard Logic
  * Handles community interactions, join states, and notification management.
  */
 

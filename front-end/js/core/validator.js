@@ -1,5 +1,5 @@
 /**
- * NexusHub — Form Validation Utilities
+ * Gameunity — Form Validation Utilities
  * Reusable validation functions with inline error display.
  * Import this on any page that has forms.
  */
@@ -157,4 +157,4 @@ window.NexusValidator = {
     }
 };
 
-console.log('%c[NexusHub] %cValidator utilities loaded.', 'color: #5B6EF5; font-weight: bold;', 'color: #10B981;');
+console.log('%c[Gameunity] %cValidator utilities loaded.', 'color: #5B6EF5; font-weight: bold;', 'color: #10B981;');

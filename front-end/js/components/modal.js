@@ -1,5 +1,5 @@
 /**
- * NexusHub — Reusable Modal System
+ * Gameunity — Reusable Modal System
  * Provides a promise-based API for confirmations, forms, and alerts.
  */
 

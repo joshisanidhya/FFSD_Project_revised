@@ -1,11 +1,48 @@
 /* ─────────────────────────────────────────
-   NexusHub Landing — JavaScript
+   Gameunity Landing — JavaScript
    ───────────────────────────────────────── */
 
 /* ── NAV: add glass background on scroll ── */
 window.addEventListener('scroll', () => {
   document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 40);
 });
+
+/* Scroll-activated section overlay */
+(function() {
+  const overlay = document.getElementById('section-overlay');
+  const hero    = document.querySelector('.hero');
+  const links   = document.querySelectorAll('.overlay-link');
+  const sections = [
+    { id: 'features', link: links[0] },
+    { id: 'how', link: links[1] },
+    { id: 'community', link: links[2] }
+  ];
+
+  if (!overlay || !hero || links.length === 0) return;
+
+  window.addEventListener('scroll', () => {
+    overlay.classList.toggle('show', window.scrollY > hero.offsetHeight * 0.45);
+
+    const sectionInView = sections.find(s => {
+      const el = document.getElementById(s.id);
+      if (!el) return false;
+      const rect = el.getBoundingClientRect();
+      return rect.top <= window.innerHeight * 0.35 && rect.bottom >= window.innerHeight * 0.2;
+    });
+
+    links.forEach(link => link.classList.remove('active'));
+    if (sectionInView) sectionInView.link.classList.add('active');
+  });
+
+  links.forEach(link => {
+    link.addEventListener('click', event => {
+      const target = document.querySelector(link.getAttribute('href'));
+      if (!target) return;
+      event.preventDefault();
+      window.scrollTo({ top: target.offsetTop - 64, behavior: 'smooth' });
+    });
+  });
+})();
 
 
 /* ── COUNT-UP ANIMATION ── */

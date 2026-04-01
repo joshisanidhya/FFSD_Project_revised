@@ -1,5 +1,5 @@
 /**
- * NexusHub — Global Navigation & Auth UI Logic
+ * Gameunity — Global Navigation & Auth UI Logic
  * Handles user session display, logout procedures, and active link highlighting.
  */
 

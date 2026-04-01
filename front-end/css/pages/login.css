@@ -1,14 +1,18 @@
 /* ═══════════════════════════════════════════
-   NexusHub — Login / Register / Forgot Password
+   Gameunity — Login / Register / Forgot Password
    Dark theme with purple accents per Figma design
    ═══════════════════════════════════════════ */
 /* ── Override global.css body styles for login page ── */
-body {
-    flex-direction: column;   /* login-wrapper stacks vertically, not sideways */
+html, body {
     overflow: auto;           /* global sets overflow:hidden — login needs scroll */
-    min-height: 100vh;
+    min-height: 100%;
 }
 
+body {
+    flex-direction: column;   /* login-wrapper stacks vertically, not sideways */
+    padding-top: 28px;        /* avoid top clipping when fixed nav is present */
+    min-height: 100vh;
+}
 .login-wrapper {
     width: 100%;              /* stretch to full viewport width so centering works */
     flex: 1;                  /* fill remaining height */
@@ -20,10 +24,10 @@ body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 40px 20px;
-    position: relative;
-    z-index: 1;
+    align-items: flex-start;
+    padding: 4px 20px 28px;
+    max-height: none;
+    overflow-y: visible;
 }
 
 /* ── BACKGROUND ── */

@@ -1,5 +1,5 @@
 /**
- * NexusHub — Complete CRUD State Manager
+ * Gameunity — Complete CRUD State Manager
  * Handles UI, Modals, Forms, and dynamically rendering lists.
  */
 

@@ -1,5 +1,5 @@
 /**
- * NexusHub — Moderator Review Panel Logic
+ * Gameunity — Moderator Review Panel Logic
  * Handles real-time report triaging, cross-community switching, 
  * and automated moderation workflows.
  */

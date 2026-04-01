@@ -1,5 +1,5 @@
 /**
- * NexusHub — Core API Wrapper
+ * Gameunity — Core API Wrapper
  * Centralizes all network requests and handles mock data for the frontend prototype.
  */
 

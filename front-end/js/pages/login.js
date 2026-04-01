@@ -1,5 +1,5 @@
 /**
- * NexusHub — Login / Register / Forgot Password Logic
+ * Gameunity — Login / Register / Forgot Password Logic
  * Handles form validation, auth tab switching, role-based redirects,
  * password strength checking, and demo quick-login.
  */
@@ -305,7 +305,7 @@ window.handleRegister = function(e) {
         };
         localStorage.setItem('nexus_user', JSON.stringify(user));
 
-        showToast('🎉', 'Account created! Welcome to NexusHub!');
+        showToast('🎉', 'Account created! Welcome to Gameunity!');
 
         setTimeout(() => {
             window.location.href = ROLE_REDIRECTS[role] || 'dashboard.html';
@@ -613,5 +613,5 @@ document.addEventListener('DOMContentLoaded', () => {
     initPasswordStrength();
     initRealTimeValidation();
 
-    console.log('%c[NexusHub] %cLogin module initialized.', 'color: #5B6EF5; font-weight: bold;', 'color: #aaa;');
+    console.log('%c[Gameunity] %cLogin module initialized.', 'color: #5B6EF5; font-weight: bold;', 'color: #aaa;');
 });

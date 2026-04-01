@@ -1,5 +1,5 @@
 /**
- * NexusHub — Centralized Mock Data Store
+ * Gameunity — Centralized Mock Data Store
  * Single source of truth for all frontend prototype data.
  * All CRUD operations read/write to this store via crudService.js.
  * Data persists across page loads using localStorage.
@@ -157,4 +157,4 @@ window.NexusData = {
 
 // Auto-init on load
 initStore();
-console.log('%c[NexusHub] %cMock data store initialized.', 'color: #5B6EF5; font-weight: bold;', 'color: #10B981;');
+console.log('%c[Gameunity] %cMock data store initialized.', 'color: #5B6EF5; font-weight: bold;', 'color: #10B981;');

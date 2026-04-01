@@ -1,5 +1,5 @@
 /**
- * NexusHub — Authentication & RBAC Logic
+ * Gameunity — Authentication & RBAC Logic
  * Handles session persistence via localStorage and Role-Based Access Control (RBAC).
  * 
  * ROLES (4 total):

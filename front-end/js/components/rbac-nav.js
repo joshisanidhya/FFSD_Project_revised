@@ -1,5 +1,5 @@
 /**
- * NexusHub — RBAC Sidebar Navigation Component
+ * Gameunity — RBAC Sidebar Navigation Component
  * 
  * Auto-injects role-based panel links into the app-rail sidebar.
  * Reads user session from localStorage and shows/hides panel links

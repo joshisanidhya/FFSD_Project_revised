@@ -1,5 +1,5 @@
 /**
- * NexusHub — Create Community / Channel Logic
+ * Gameunity — Create Community / Channel Logic
  * Handles multi-step wizards, live previews, and dynamic form generation.
  */
 

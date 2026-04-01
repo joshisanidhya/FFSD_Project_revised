@@ -1,5 +1,5 @@
 /**
- * NexusHub — Events Module Logic
+ * Gameunity — Events Module Logic
  * Handles event discovery filtering, registration states, and the creation wizard.
  */
 

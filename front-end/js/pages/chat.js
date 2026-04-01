@@ -1,5 +1,5 @@
 /**
- * NexusHub — Channel Chat Logic
+ * Gameunity — Channel Chat Logic
  * Handles real-time messaging, channel switching, and UI interactions.
  */
 

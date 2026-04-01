@@ -1,5 +1,5 @@
 /**
- * NexusHub — Super User Dashboard Logic
+ * Gameunity — Super User Dashboard Logic
  * Full system-level CRUD across all modules.
  */
 
@@ -714,5 +714,5 @@ function toast(msg) {
 // ==========================================
 document.addEventListener('DOMContentLoaded', () => {
     renderOverview();
-    console.log('%c[NexusHub] %cSuper User Dashboard loaded.', 'color: #5B6EF5; font-weight: bold;', 'color: #F59E0B;');
+    console.log('%c[Gameunity] %cSuper User Dashboard loaded.', 'color: #5B6EF5; font-weight: bold;', 'color: #F59E0B;');
 });

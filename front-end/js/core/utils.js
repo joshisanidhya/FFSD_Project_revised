@@ -1,5 +1,5 @@
 /**
- * NexusHub — Global Utility Module
+ * Gameunity — Global Utility Module
  * Handles date formatting, DOM security, and temporary UI notifications.
  */
 

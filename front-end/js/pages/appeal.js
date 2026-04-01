@@ -1,5 +1,5 @@
 /**
- * NexusHub — Appeal Submission Logic
+ * Gameunity — Appeal Submission Logic
  * Handles form validation, file attachments, and submission states.
  */
 

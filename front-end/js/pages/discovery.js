@@ -1,5 +1,5 @@
 /**
- * NexusHub — Community Discovery Logic
+ * Gameunity — Community Discovery Logic
  * Handles real-time filtering, category chip management, and keyboard shortcuts.
  */
 
